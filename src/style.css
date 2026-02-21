@@ -1430,29 +1430,115 @@ select:focus {
 
 @media (max-width: 768px) {
   .start-card {
-    padding: 22px;
+    padding: 18px;
+    box-shadow: 0 12px 24px rgba(2, 8, 15, 0.25);
+  }
+
+  .start-card__title {
+    font-size: 22px;
   }
 
   .start-card__info {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .info-tile {
+    padding: 10px 6px;
+  }
+
+  .info-tile__value {
+    font-size: 22px;
+  }
+
+  .history-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mode-options {
+    flex-direction: column;
   }
 
   .exam-header {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    padding: 10px 12px;
+    gap: 8px;
   }
 
   .exam-header__timer {
     font-size: 18px;
   }
 
+  .exam-header__actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .exam-header__actions .btn {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  /* Hide sidebar on mobile, show bottom nav */
+  .exam-body {
+    flex-direction: column;
+  }
+
+  .exam-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    border-right: none;
+    border-top: 1px solid var(--line);
+    order: 2;
+    padding: 6px 8px;
+    gap: 4px;
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .exam-nav__label {
+    display: none;
+  }
+
+  .nav-btn {
+    flex-shrink: 0;
+    width: auto;
+    min-width: 44px;
+    padding: 8px 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+
+  .nav-btn span:not(.nav-btn__status) {
+    display: none;
+  }
+
+  .nav-btn__score {
+    display: none;
+  }
+
   .exam-content {
-    padding: 14px;
+    padding: 12px;
+    order: 1;
   }
 
   .statement-grid {
     grid-template-columns: 1fr;
+  }
+
+  .q3-workspace {
+    flex-direction: column;
+    height: auto;
+    min-height: calc(100vh - 180px);
   }
 
   .q3-grid-two {
@@ -1473,6 +1559,205 @@ select:focus {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+
+  .question-header__title {
+    font-size: 18px;
+  }
+
+  /* Make journal table scrollable */
+  .journal-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -12px;
+    padding: 0 12px;
+  }
+
+  .journal-table {
+    min-width: 680px;
+  }
+
+  /* Bigger touch targets for inputs */
+  input[type='text'],
+  select {
+    font-size: 16px;
+    padding: 8px 10px;
+    min-height: 40px;
+  }
+
+  .q3-form-table input.q3-amount-input,
+  .q3-net-income-box input.q3-amount-input {
+    font-size: 14px;
+    padding: 7px 8px;
+    min-height: 36px;
+  }
+
+  /* Question number buttons larger for touch */
+  .q-num-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .btn--lg {
+    padding: 16px 18px;
+    font-size: 17px;
+  }
+
+  /* Result screen */
+  .result-card {
+    padding: 16px;
+  }
+
+  .result-score {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .result-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .result-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Review tables scrollable */
+  .review-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Explanation items more compact */
+  .explanation-item {
+    padding: 12px;
+  }
+
+  .explanation-item__header {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .start-screen {
+    padding: 12px 8px;
+  }
+
+  .start-card {
+    padding: 14px;
+    border-radius: 2px;
+  }
+
+  .start-card__title {
+    font-size: 19px;
+  }
+
+  .start-card__subtitle {
+    font-size: 13px;
+  }
+
+  .start-card__info {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .info-tile {
+    padding: 8px 4px;
+  }
+
+  .info-tile__value {
+    font-size: 18px;
+  }
+
+  .info-tile__label,
+  .info-tile__unit {
+    font-size: 11px;
+  }
+
+  .start-card__rules li {
+    font-size: 12px;
+  }
+
+  .history-stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+  }
+
+  .history-stat__value {
+    font-size: 16px;
+  }
+
+  .exam-header__title {
+    font-size: 12px;
+  }
+
+  .exam-content {
+    padding: 8px;
+  }
+
+  .question-header__title {
+    font-size: 16px;
+  }
+
+  .journal-question__text {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .q-num-btn {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  .q3-sheet th,
+  .q3-sheet td {
+    padding: 4px;
+    font-size: 11px;
+  }
+
+  .q3-form-table input.q3-amount-input,
+  .q3-net-income-box input.q3-amount-input {
+    font-size: 13px;
+    padding: 6px;
+    min-height: 34px;
+  }
+
+  .ledger-problem__title {
+    font-size: 15px;
+  }
+
+  .score-tile__value {
+    font-size: 28px;
+  }
+
+  .result-badge__icon {
+    font-size: 48px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .option-hint {
+    gap: 4px 6px;
+  }
+
+  .option-hint__item {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  .invoice-sheet {
+    padding: 10px;
+  }
+
+  .invoice-sheet__table th,
+  .invoice-sheet__table td {
+    padding: 4px 6px;
+    font-size: 12px;
   }
 }
 
