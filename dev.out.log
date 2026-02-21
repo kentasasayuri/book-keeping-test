@@ -1,0 +1,72 @@
+
+> boki3-net-exam@1.0.0 dev
+> vite --host 127.0.0.1 --port 5173 --strictPort
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m343[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m21:39:29[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question3.js[22m
+[2m21:39:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m21:47:08[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m21:47:42[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m21:48:05[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m21:55:16[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/accounts.js[22m
+[2m22:00:50[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m22:01:03[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m22:01:18[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/app.js[22m
+[2m22:01:48[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question1.js[22m
+[2m22:01:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m22:06:24[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m22:06:34[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m22:07:37[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m22:15:52[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/examGenerator.js[22m
+[2m22:16:15[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question1.js[22m
+[2m22:16:41[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m22:16:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m22:17:29[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m22:17:51[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m22:18:29[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m22:18:56[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question2.js[22m
+[2m22:19:48[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m22:20:20[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question3.js[22m
+[2m22:20:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m22:20:40[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m22:20:49[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m22:20:59[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/question3.js[22m
+[2m22:21:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m22:22:35[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/scoring.js[22m
+[2m22:23:14[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m22:26:12[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/examBlueprint.js[22m
+[2m22:26:54[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/examGenerator.js[22m
+[2m22:27:11[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/examGenerator.js[22m
+[2m22:27:20[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m13:07:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m13:07:24[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m13:08:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m13:09:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m13:13:51[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m13:13:54[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m13:13:56[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m13:15:45[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m13:15:56[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m13:16:07[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m14:14:35[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/scoring.js[22m
+[2m14:14:57[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/scoring.js[22m
+[2m14:15:27[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/resultScreen.js[22m
+[2m14:16:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m23:34:08[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m23:34:11[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m23:34:13[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m23:35:24[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q1Pool.js[22m
+[2m23:35:44[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/accounts.js[22m
+[2m23:36:26[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m23:37:22[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m23:38:13[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m23:38:15[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q3Pool.js[22m
+[2m23:39:23[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m23:40:36[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
+[2m23:41:44[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/app.js[22m
+[2m23:42:28[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/startScreen.js[22m
+[2m23:43:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/style.css[22m
+[2m23:49:59[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/data/q2Pool.js[22m
